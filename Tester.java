@@ -1,15 +1,12 @@
-package com.prodapt.Loan;
+package com.prodapt.School;
 
 public class Tester {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Loanamount.process(200000);
-		
-		Loanamount.Total(200000);
-			
-		}
-			
-			
-		}
+		SchoolRecords.ddRecords("MVM", 254, "Totally 280 students are there");
+		SchoolRecords.ddDisplay("MVM", 254, "Totally 280 students are there");;
+
+	}
+}
